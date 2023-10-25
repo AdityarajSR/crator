@@ -1,0 +1,182 @@
+body{
+  background-color:black;
+  /* background-image:url(https://media.giphy.com/media/rRKcpDgvYNpEk/giphy.gif); */
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  color: white;
+  padding:0;
+  margin: 0;
+  text-align: center;
+
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow: hidden;
+    /* -webkit-font-smoothing: antialiased; */
+  
+}
+a {
+        color: #8ff;
+      }
+
+      #menu {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .element {
+        width: 120px;
+        height: 160px;
+        box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+        border: 1px solid rgba(127,255,255,0.25);
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        line-height: normal;
+        cursor: default;
+      }
+
+      .element:hover {
+        box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+        border: 1px solid rgba(127,255,255,0.75);
+      }
+
+        .element .number {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          font-size: 12px;
+          color: rgba(127,255,255,0.75);
+        }
+
+        .element .symbol {
+          position: absolute;
+          top: 40px;
+          left: 0px;
+          right: 0px;
+          font-size: 60px;
+          font-weight: bold;
+          color: rgba(255,255,255,0.75);
+          text-shadow: 0 0 10px rgba(0,255,255,0.95);
+        }
+
+        .element .details {
+          position: absolute;
+          bottom: 15px;
+          left: 0px;
+          right: 0px;
+          font-size: 12px;
+          color: rgba(127,255,255,0.75);
+        }
+
+      button {
+        color: rgba(127,255,255,0.75);
+        background: transparent;
+        outline: 1px solid rgba(127,255,255,0.75);
+        border: 0px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: rgba(0,255,255,0.5);
+      }
+
+      button:active {
+        color: #000000;
+        background-color: rgba(0,255,255,0.75);
+      }
+#romeo{
+  display: flex;
+  margin: 30px 40px ;
+}
+#romeo img{
+  border: 1px solid white;
+  border-radius:50%;
+
+}
+.nb{
+  padding-right:20px;
+}
+#juliet{
+  display: block;
+  margin: 30px 10px ;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.moon{
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  /* margin-top:10px; */
+  padding-top: 10%;
+  
+}
+
+.kaam1{
+  position: absolute;
+  top: 500px;
+  left: 400px;
+}
+.kaam2{
+  position: absolute;
+  top: 500px;
+  left: 550px;
+}
+.kaam3{
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+}
+.kaam4{
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+.kaam5{
+  position: absolute;
+  top: 500px;
+  left: 900px;
+}
+
+/* video */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
